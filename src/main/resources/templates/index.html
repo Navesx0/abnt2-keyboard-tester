@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado ABNT2 Virtual</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="container">
+        <h1>Teclado ABNT2 Virtual</h1>
+        
+        <div class="keyboard">
+            <div class="left">
+                <!-- Primeira linha -->
+                <div class="frow">
+                    <div class="esc-container">    
+                        <div class="fkey esc" data-key-code="Escape"><div class="text">ESC</div></div>
+                    </div>
+                    <div class="f-key">
+                        <div class="fkey" data-key-code="F1"><div class="text">F1</div></div>
+                        <div class="fkey" data-key-code="F2"><div class="text">F2</div></div>
+                        <div class="fkey" data-key-code="F3"><div class="text">F3</div></div>
+                        <div class="fkey" data-key-code="F4"><div class="text">F4</div></div>
+                    </div>
+                    <div class="f-key">
+                        <div class="fkey" data-key-code="F5"><div class="text">F5</div></div>
+                        <div class="fkey" data-key-code="F6"><div class="text">F6</div></div>
+                        <div class="fkey" data-key-code="F7"><div class="text">F7</div></div>
+                        <div class="fkey" data-key-code="F8"><div class="text">F8</div></div>
+                    </div>
+                    <div class="f-key">
+                        <div class="fkey" data-key-code="F9"><div class="text">F9</div></div>
+                        <div class="fkey" data-key-code="F10"><div class="text">F10</div></div>
+                        <div class="fkey" data-key-code="F11"><div class="text">F11</div></div>
+                        <div class="fkey" data-key-code="F12"><div class="text">F12</div></div>
+                    </div>
+                </div>    
+                
+                <!-- Segunda linha -->
+                <div class="row">
+                    <div class="key" data-key-code="Backquote"><div class="text">"<div>'</div></div></div>
+                    <div class="key" data-key-code="Digit1"><div class="text">!<div>1</div></div></div>
+                    <div class="key" data-key-code="Digit2"><div class="text">@<div>2</div></div></div>
+                    <div class="key" data-key-code="Digit3"><div class="text">#<div>3</div></div></div>
+                    <div class="key" data-key-code="Digit4"><div class="text">$<div>4</div></div></div>
+                    <div class="key" data-key-code="Digit5"><div class="text">%<div>5</div></div></div>
+                    <div class="key" data-key-code="Digit6"><div class="text">¨<div>6</div></div></div>
+                    <div class="key" data-key-code="Digit7"><div class="text">&<div>7</div></div></div>
+                    <div class="key" data-key-code="Digit8"><div class="text">*<div>8</div></div></div>
+                    <div class="key" data-key-code="Digit9"><div class="text">(<div>9</div></div></div>
+                    <div class="key" data-key-code="Digit0"><div class="text">)<div>0</div></div></div>
+                    <div class="key" data-key-code="Minus"><div class="text">_<div>-</div></div></div>
+                    <div class="key" data-key-code="Equal"><div class="text">=<div>+</div></div></div>
+                    <div class="backspace" data-key-code="Backspace"><div class="text">Backspace</div></div>
+                </div>
+
+                <!-- Terceira linha -->
+                <div class="row">
+                    <div class="key tab" data-key-code="Tab"><div class="text">Tab</div></div>
+                    <div class="key" data-key-code="KeyQ"><div class="text">Q</div></div>
+                    <div class="key" data-key-code="KeyW"><div class="text">W</div></div>
+                    <div class="key" data-key-code="KeyE"><div class="text">E</div></div>
+                    <div class="key" data-key-code="KeyR"><div class="text">R</div></div>
+                    <div class="key" data-key-code="KeyT"><div class="text">T</div></div>
+                    <div class="key" data-key-code="KeyY"><div class="text">Y</div></div>
+                    <div class="key" data-key-code="KeyU"><div class="text">U</div></div>
+                    <div class="key" data-key-code="KeyI"><div class="text">I</div></div>
+                    <div class="key" data-key-code="KeyO"><div class="text">O</div></div>
+                    <div class="key" data-key-code="KeyP"><div class="text">P</div></div>
+                    <div class="key" data-key-code="BracketLeft"><div class="text">`<div class="secondary">´</div></div></div>
+                    <div class="key" data-key-code="BracketRight"><div class="text">{<div class="secondary">[</div></div></div>
+                    <div class="enter" data-key-code="Enter"><div class="text">Enter</div></div>
+                </div>
+                    
+                <!-- Quarta linha -->
+                <div class="row4">
+                    <div class="key capslock" data-key-code="CapsLock"><div class="text">CapsLock</div></div>
+                    <div class="key" data-key-code="KeyA"><div class="text">A</div></div>
+                    <div class="key" data-key-code="KeyS"><div class="text">S</div></div>
+                    <div class="key" data-key-code="KeyD"><div class="text">D</div></div>
+                    <div class="key" data-key-code="KeyF"><div class="text">F</div></div>
+                    <div class="key" data-key-code="KeyG"><div class="text">G</div></div>
+                    <div class="key" data-key-code="KeyH"><div class="text">H</div></div>
+                    <div class="key" data-key-code="KeyJ"><div class="text">J</div></div>
+                    <div class="key" data-key-code="KeyK"><div class="text">K</div></div>
+                    <div class="key" data-key-code="KeyL"><div class="text">L</div></div>
+                    <div class="key" data-key-code="Semicolon"><div class="text">Ç<div class="secondary"></div></div></div>
+                    <div class="key" data-key-code="Quote"><div class="text">^<div class="secondary">~</div></div></div>
+                    <div class="key" data-key-code="Backslash"><div class="text">}<div class="secondary">]</div></div></div>
+                </div>
+                    
+                <!-- Quinta linha -->
+                <div class="row">
+                    <div class="key left-shift" data-key-code="ShiftLeft"><div class="text">Shift</div></div>
+                    <div class="key" data-key-code="IntlBackslash"><div class="text">|<div class="secondary">\</div></div></div>
+                    <div class="key" data-key-code="KeyZ"><div class="text">Z</div></div>
+                    <div class="key" data-key-code="KeyX"><div class="text">X</div></div>
+                    <div class="key" data-key-code="KeyC"><div class="text">C</div></div>
+                    <div class="key" data-key-code="KeyV"><div class="text">V</div></div>
+                    <div class="key" data-key-code="KeyB"><div class="text">B</div></div>
+                    <div class="key" data-key-code="KeyN"><div class="text">N</div></div>
+                    <div class="key" data-key-code="KeyM"><div class="text">M</div></div>
+                    <div class="key" data-key-code="Comma"><div class="text"><<div class="secondary">,</div></div></div>
+                    <div class="key" data-key-code="Period"><div class="text">><div class="secondary">.</div></div></div>
+                    <div class="key" data-key-code="Slash"><div class="text">:<div class="secondary">;</div></div></div>
+                    <div class="key" data-key-code="IntlRo"><div class="text">?<div class="secondary">/</div></div></div>
+                    <div class="key right-shift" data-key-code="ShiftRight"><div class="text">Shift</div></div>
+                </div>
+                
+                <!-- Sexta linha -->
+                <div class="row">
+                    <div class="key left-ctrl" data-key-code="ControlLeft"><div class="text">Ctrl</div></div>
+                    <div class="key win" data-key-code="MetaLeft"><div class="text">Win</div></div>
+                    <div class="key left-alt" data-key-code="AltLeft"><div class="text">Alt</div></div>
+                    <div class="key space" data-key-code="Space"><div class="text">Space</div></div>
+                    <div class="key right-alt" data-key-code="AltRight"><div class="text">Alt Gr</div></div>
+                    <div class="key win" data-key-code="MetaRight"><div class="text">Win</div></div>
+                    <div class="key menu" data-key-code="ContextMenu"><div class="text">Menu</div></div>
+                    <div class="key right-ctrl" data-key-code="ControlRight"><div class="text">Ctrl</div></div>
+                </div>
+            </div>
+            
+            <div class="mid">
+                <div class="line-key">
+                    <div class="frow">
+                        <div class="fkey" data-key-code="PrintScreen"><div class="print-screen">Print<br>Screen</div></div>
+                        <div class="fkey" data-key-code="ScrollLock"><div class="scroll-lock">Scroll<br>Lock</div></div>
+                        <div class="fkey" data-key-code="Pause"><div class="pause">Pause</div></div>
+                    </div>
+                    <div>
+                        <div class="key insert" data-key-code="Insert"><div class="text">Insert</div></div>
+                        <div class="key home" data-key-code="Home"><div class="text">Home</div></div>
+                        <div class="key page-up" data-key-code="PageUp"><div class="text">Page<br>Up</div></div>
+                    </div>
+                    <div>
+                        <div class="key" data-key-code="Delete"><div class="text">Delete</div></div>
+                        <div class="key" data-key-code="End"><div class="text">End</div></div>
+                        <div class="key" data-key-code="PageDown"><div class="text">Page<br>Down</div></div>
+                    </div>
+                    <div>
+                        <div class="empty"></div>
+                    </div>
+                    <div>
+                        <div class="empty"></div>
+                        <div class="key arrow-up" data-key-code="ArrowUp"><div class="text">↑</div></div>
+                    </div>
+                    <div>
+                        <div class="key arrow-left" data-key-code="ArrowLeft"><div class="text">←</div></div>
+                        <div class="key arrow-down" data-key-code="ArrowDown"><div class="text">↓</div></div>
+                        <div class="key arrow-right" data-key-code="ArrowRight"><div class="text">→</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rigth">
+                <div class="line-key">
+                    <div class="f-empty"></div>
+                    <div>
+                        <div class="key numlock" data-key-code="NumLock"><div class="text">Num<br>Lock</div></div>
+                        <div class="key num-divide" data-key-code="NumpadDivide"><div class="text">/</div></div>
+                        <div class="key num-multiply" data-key-code="NumpadMultiply"><div class="text">*</div></div>
+                        <div class="key num-subtract" data-key-code="NumpadSubtract"><div class="text">-</div></div>
+                    </div>
+                    <div>
+                        <div class="key num-7" data-key-code="Numpad7"><div class="text">7</div></div>
+                        <div class="key num-8" data-key-code="Numpad8"><div class="text">8</div></div>
+                        <div class="key num-9" data-key-code="Numpad9"><div class="text">9</div></div>
+                        <div class="key num-add" data-key-code="NumpadAdd"><div class="text">+</div></div>
+                    </div>
+                    <div>
+                        <div class="key num-4" data-key-code="Numpad4"><div class="text">4</div></div>
+                        <div class="key num-5" data-key-code="Numpad5"><div class="text">5</div></div>
+                        <div class="key num-6" data-key-code="Numpad6"><div class="text">6</div></div>
+                        <div class="key" data-key-code="NumpadComma"><div class="text">.</div></div>
+                    </div>
+                    <div>
+                        <div class="key num-1" data-key-code="Numpad1"><div class="text">1</div></div>
+                        <div class="key num-2" data-key-code="Numpad2"><div class="text">2</div></div>
+                        <div class="key num-3" data-key-code="Numpad3"><div class="text">3</div></div>
+                        <div class="num-enter" data-key-code="NumpadEnter"><div class="text">Enter</div></div>
+                    </div>
+                    <div class="row-0">
+                        <div class="num-0" data-key-code="Numpad0"><div class="text">0</div></div>
+                        <div class="key num-decimal" data-key-code="NumpadDecimal"><div class="text">,</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script th:src="@{/js/keyboard-tester.js}"></script>
+</body>
+</html>

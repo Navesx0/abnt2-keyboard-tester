@@ -1,0 +1,373 @@
+/* Adicione este estilo para a tecla pressionada */
+.key.pressed::before,
+.fkey.pressed::before,
+.backspace.pressed::before,
+.enter.pressed::before,
+.num-enter.pressed::before,
+.num-0.pressed::before {
+    background-color: #6eff7a !important; /* Verde para indicar que foi pressionada */
+    border-color: #1a7a22;
+}
+
+/* ------------------- */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #111111;
+    margin: 0;
+    padding: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Standard syntax */
+}
+
+}
+
+.container {
+    max-width: flex;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.keyboard {
+    display: flex;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.frow {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.row4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+    margin-top: -62px;
+}
+
+.row-0 {
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+    margin-top: -62px;
+}
+/* Container da tecla Esc */
+.esc-container {
+    margin-right: 60px;
+}
+
+/* Container das teclas F* */
+.f-key {
+    display: flex;
+    margin-right: 30px;
+}
+
+.mid {
+    display: flex;
+    margin-right: 20px;
+}
+
+.line-key > * {
+    display: flex;
+    margin-right: 10px;
+}
+
+/* ============= Estilo para as telcas ============= */
+/* Estilo base para todas as teclas */
+.fkey {
+    width: 60px;
+    height: 45px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: 1px solid #111111;
+    border-radius: 10%;
+}
+
+/* Quadrado branco interno */
+.fkey::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    background-color: white;
+    top: 3px; 
+    border: 0.7px solid #5f5f5f;
+    border-radius: 10%;
+} 
+.empty{
+    width: 62px;
+    height: 60px;
+}
+
+.f-empty{
+    width: 60px;
+    height: 65px;
+}
+
+/* Estilo base para todas as teclas */
+.key {
+    width: 60px;
+    height: 60px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: 1px solid #111111;
+    border-radius: 10%;
+}
+
+.num-0{
+    width: 122px;
+    height: 60px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: 1px solid #111111;
+    border-radius: 10%;
+}
+
+.num-0::before {
+    content: "";
+    position: absolute;
+    width: 108px;
+    height: 45px;
+    background-color: white;
+    top: 3px; 
+    border: 1px solid #5f5f5f;
+    border-radius: 10%;
+} 
+
+.num-enter{
+    width: 60px;
+    height: 122px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: 1px solid #111111;
+    border-radius: 10%;
+}
+
+.num-enter::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 106px;
+    background-color: white;
+    top: 5px; 
+    border: 0.7px solid #5f5f5f;
+    border-radius: 10%;
+} 
+
+/* Quadrado branco interno */
+.key::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    top: 3px; 
+    border: 0.7px solid #5f5f5f;
+    border-radius: 10%;
+} 
+
+.backspace {
+    width: 119px;
+    height: 60px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: 1px solid #111111;
+    border-radius: 8%;
+}
+
+/* Quadrado branco interno */
+.backspace::before {
+    content: "";
+    position: absolute;
+    width: 104px;
+    height: 45px;
+    background-color: white;
+    top: 3px; 
+    border: 0.7px solid #5f5f5f;
+    border-radius: 8%;
+} 
+
+.tab {
+    width: 90px;
+}
+
+.tab::before {
+    width: 76px;
+}
+
+.capslock {
+    width: 104px;
+}
+
+.capslock::before {
+    width: 90px;
+}
+
+.enter {
+    background-color: #d9d9d9;
+    /* width: 89px; */
+    /* height: 120px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: 1px solid #111111;
+
+    --r: 2px; /* the radius */
+    --s: 5px; /* size of inner curve */
+    --x: 7px; /* horizontal offset (no percentage) */
+    --y: 55px; /* vertical offset (no percentage) */
+    
+    height: 122px;
+    width: 91px;
+    aspect-ratio: 1;
+    /* background: #3FB8AF; */
+    border-radius: 8%;
+    --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%);
+    --_g:conic-gradient(from 180deg at var(--r) calc(100% - var(--r)),#0000 25%,#000 0);
+    --_d:(var(--s) + var(--r));
+    mask:
+    calc(var(--_d) + var(--x)) 100% var(--_m),
+    0 calc(100% - var(--_d) - var(--y)) var(--_m),
+    radial-gradient(var(--s) at 0 100%,#0000 99%,#000 calc(100% + 1px)) 
+    calc(var(--r) + var(--x)) calc(-1*var(--r) - var(--y)),
+    var(--_g) calc(var(--_d) + var(--x)) 0,
+    var(--_g) 0 calc(-1*var(--_d) - var(--y));
+    mask-repeat: no-repeat;
+}
+
+.enter::before {
+    content: "";
+    position: absolute;
+    /* width: 104px;
+    height: 45px; */
+    background-color: white;
+    top: 3px; 
+    border: 0.7px solid #5f5f5f;
+    border-radius: 8%;
+
+    --r: 2px; /* the radius */
+    --s: 5px; /* size of inner curve */
+    --x: 7px; /* horizontal offset (no percentage) */
+    --y: 55px; /* vertical offset (no percentage) */
+    
+    height: 105px;
+    width: 76px;
+    aspect-ratio: 1;
+    /* background: #3FB8AF; */
+    border-radius: 8%;
+    --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%);
+    --_g:conic-gradient(from 180deg at var(--r) calc(100% - var(--r)),#0000 25%,#000 0);
+    --_d:(var(--s) + var(--r));
+    mask:
+    calc(var(--_d) + var(--x)) 100% var(--_m),
+    0 calc(100% - var(--_d) - var(--y)) var(--_m),
+    radial-gradient(var(--s) at 0 100%,#0000 99%,#000 calc(100% + 1px)) 
+    calc(var(--r) + var(--x)) calc(-1*var(--r) - var(--y)),
+    var(--_g) calc(var(--_d) + var(--x)) 0,
+    var(--_g) 0 calc(-1*var(--_d) - var(--y));
+    mask-repeat: no-repeat;
+} 
+
+.left-shift {
+    width: 75px;
+}
+
+.left-shift::before {
+    width: 60px;
+}
+
+.right-shift {
+    width: 104px;
+}
+
+.right-shift::before {
+    width: 90px;
+}
+
+.left-ctrl {
+    width: 90px;
+}
+
+.left-ctrl::before {
+    width: 76px;
+}
+
+.space {
+    width: 358px;
+}
+
+.space::before {
+    width: 336px;
+}
+
+.win, .left-alt, .right-alt, .menu, .right-ctrl {
+    width: 77px;
+}
+.win::before, .left-alt::before, .right-alt::before, .menu::before, .right-ctrl::before {
+/* .win::before { */
+    width: 60px;
+}
+
+/* Texto das teclas - CORREÇÃO PRINCIPAL */
+.text {
+    font-size: 12px;
+    position: relative;
+    z-index: 1;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    top: -5px;
+}
+
+/* Estilo para teclas com quebra de linha */
+.print-screen, .scroll-lock, .pause, .insert, .home, .page-up, .backspace {
+    font-size: 12px;
+    line-height: 1;
+    color: black;
+    z-index: 1;
+    text-align: top;
+    font-weight: bold;
+}
