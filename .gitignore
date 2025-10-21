@@ -4,6 +4,7 @@ target/
 build/
 out/
 bin/
+test/
 
 # IDE
 .idea/
@@ -16,7 +17,6 @@ bin/
 .vscode/
 *.swp
 *.swo
-
 # Logs
 logs/
 *.log

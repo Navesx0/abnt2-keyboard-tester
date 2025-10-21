@@ -35,28 +35,22 @@ Este projeto é um testador de teclado virtual que simula um teclado ABNT2 compl
 ### Estrutura do Projeto
 ```
 src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── java/
-│   │           └── aprendendo/
-│   │               ├── AprendendoApplication.java
-│   │               ├── controller/
-│   │               │   └── PaginaController.java
-│   │               └── entity/
-│   │                   └── Usuario.java
-│   └── resources/
-│       ├── static/
-│       │   └── css/
-│       │       └── style.css
-│       └── templates/
-│           └── index.html
-└── test/
-    └── java/
-        └── com/
-            └── java/
-                └── aprendendo/
-                    └── AprendendoApplicationTests.java
+└── main/
+    ├── java/
+    │   └── com/
+    │       └── java/
+    │           └── aprendendo/
+    │               ├── AprendendoApplication.java
+    │               ├── controller/
+    │               │   └── PaginaController.java
+    │               └── entity/
+    │                   └── Usuario.java
+    └── resources/
+        ├── static/
+        │   └── css/
+        │       └── style.css
+        └── templates/
+            └── index.html
 ```
 
 ### Padrões de Projeto
@@ -118,6 +112,9 @@ Contribuições são bem-vindas! Para contribuir:
 3. Commit suas mudanças
 4. Push para a branch
 5. Abra um Pull Request
+
+## 🔗 Aplicação disponível em:
+https://teclado.onrender.com/
 
 ## 📄 Licença
 
